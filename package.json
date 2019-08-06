@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-example",
-  "version": "0.7.1",
+  "version": "0.7.5",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
@@ -18,8 +18,9 @@
   "build": {
     "publish": {
       "provider": "generic",
-      "url": "https://ebo-test.oss-cn-shenzhen.aliyuncs.com"
-    }
+      "url": "https://ebo-test.oss-cn-shenzhen.aliyuncs.com",
+      "channel": "last"
+    },
     "appId": "com.ebopark.test",
     "mac": {
       "category": "your.app.category.type",
