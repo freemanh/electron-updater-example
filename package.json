@@ -16,7 +16,11 @@
     "electron-updater": "^4.0.6"
   },
   "build": {
-    "appId": "com.github.iffy.electronupdaterexample",
+    "publish": {
+      "provider": "generic",
+      "url": "https://ebo-test.oss-cn-shenzhen.aliyuncs.com"
+    }
+    "appId": "com.ebopark.test",
     "mac": {
       "category": "your.app.category.type",
       "target": [
